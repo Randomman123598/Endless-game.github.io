@@ -1,1 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  text-align: center;
+}
 
+#character-selection, #gameplay, #end-screen {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+  height: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+#gameplay {
+  font-size: 20px;
+}
+
+#game-text {
+  font-size: 24px;
+  margin-bottom: 20px; /* Space below the game text to separate it from the animation box */
+  text-align: center; /* Keeps the text centered above the animation box */
+}
+
+#animation-box {
+  font-size: 18px;
+  color: #FF6347;
+  margin-top: 20px; /*Adds space above the animation box, keeping it separate from other elements */
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 99, 71, 0.2);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 400px;
+  position: relative;
+  margin: 0 auto; /* Centers the animation box horizontally */
+ 
+}
+
+#move-buttons {
+  margin-top: 20px;
+  
+}
+#end-screen {
+  font-size: 24px;
+  color: #d9534f;
+}
+
+#legend-btn {
+  background-color: #f39c12;
+}
+
+#fight-boss-btn {
+  background-color: #c0392b;
+}
+
+/* Character Images */
+#mage {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM87vd8uYvMI7_Mn1OQBMzSuTx8q2f-s__OA&s');
+}
+
+#warrior {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_P3M88_BSlZp0hxWHDuKJRWWyJhqe4BWUdA&s');
+}
+
+#rogue {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh3kC375zfe0Cx3J7qJzBfz3Wj_xJYMOEaVQ&s');
+}
+
+#goku {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwduJqdvtsDv2lcDKdbEkftRKFMgeeHNoPXA&s');
+}
+
+#frieza {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1154MEaxr125hrIZFeP-BXx1HKbj2HHlBgA&s');
+}
+
+/* Enemy Images */
+#skeleton-enemy {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUNzWvg0uR2CKm2WFpAUSl6FShWXnBuAcyug&s');
+}
+
+#evil-warrior-enemy {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsJ8kITCDNGymm3lEq_zF9hRT5mQ8wZqkE_Q&s');
+}
+
+#snake-enemy {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUAVT7qrkAola-9m6IrazecRjGLHX2BK1UHw&s');
+}
+
+/* Special Backround Classes */
+.mage-bg {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM87vd8uYvMI7_Mn1OQBMzSuTx8q2f-s__OA&s');
+}
+
+.warrior-bg {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_P3M88_BSlZp0hxWHDuKJRWWyJhqe4BWUdA&s');
+}
+
+.rogue-bg {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh3kC375zfe0Cx3J7qJzBfz3Wj_xJYMOEaVQ&s');
+}
+
+.goku-bg {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwduJqdvtsDv2lcDKdbEkftRKFMgeeHNoPXA&s');
+}
+
+.fieza-bg {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1154MEaxr125hrIZFeP-BXx1HKbj2HHlBgA&s');
+}
