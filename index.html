@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turn-Based Battle Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="character-selection">
+    <h1>Choose Your Character</h1>
+    <button onclick="selectCharacter('Warrior')">Warrior</button>
+    <button onclick="selectCharacter('Mage')">Mage</button>
+    <button onclick="selectCharacter('Rogue')">Rogue</button>
+    <button id="legend-btn" onclick="selectCharacter('Legend')" class="hidden">Goku</button>
+    <button id="start-btn" onclick="startGame()" class="hidden">Start Game</button>
+  </div>
 
+  <div id="gameplay" class="hidden">
+  <h2 id="game-text"></h2> <!-- This is the text displayed above the animation box -->
+  <div id="animation-box"></div> <!-- This is where animations and attack results are shown -->
+  <div id="move-buttons"></div>
+  <button id="fight-boss-btn" onclick="fightFinalBoss()" class="hidden">Fight Final Boss</button>
+</div>
+
+  <div id="end-screen" class="hidden">
+    <h1 id="end-message"></h1>
+    <button onclick="restartGame()">Restart</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
